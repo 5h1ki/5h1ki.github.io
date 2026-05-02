@@ -1,12 +1,12 @@
-# 忽略 Hugo 自动生成的静态网页文件夹
 public/
 resources/_gen/
 assets/jsconfig.json
 hugo_stats.json
 
-# 忽略系统自动生成的文件
 .DS_Store
 Thumbs.db
 
-# 忽略本地运行产生的临时文件
 .hugo_build.lock
+
+.env
+node_modules/

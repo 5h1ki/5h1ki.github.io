@@ -1,0 +1,25 @@
+{
+  "name": "myblog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "algolia": "atomic-algolia"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/5h1ki/5h1ki.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/5h1ki/5h1ki.github.io/issues"
+  },
+  "homepage": "https://github.com/5h1ki/5h1ki.github.io#readme",
+  "dependencies": {
+    "atomic-algolia": "^0.3.19"
+  }
+}
