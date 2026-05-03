@@ -26,9 +26,9 @@ monthFormat: "2006-01"
 dateFormat: "2006-01-02"
 timeFormat: "2006-01-02 15:04:05"
 
-author: D-Sketon
-email: xxx@example.com
-description: "少女祈祷�?..."
+author: Shiki
+email: 361904398@qq.com
+description: "代码苦手，fgo资深萌新"
 # subtitle: "少女祈祷�?..."
 subtitle:
   typing:
@@ -47,7 +47,7 @@ subtitle:
     showCursor: true            # 是否显示闪烁的字�?
     cursorChar: "|"             # 字符
     smartBackspace: false       # 智能退格，只删除不同的部分
-  text: "少女祈祷�?..."        # �? typing.enable = false 时使�?
+  text: "少女祈祷中..."        # �? typing.enable = false 时使�?
 
 banner: "images/banner.webp"
 # You can also write it in the form of the following url
@@ -292,14 +292,14 @@ clipboard:
     en: Copy successfully (*^▽^*)
     zh-CN: 复制成功 (*^▽^*)
     zh-TW: 複製成功 (*^▽^*)
-    ja: コピー成�? (*^▽^*)
+    ja: コピー成功? (*^▽^*)
     pt-BR: Copiado com sucesso (*^▽^*)
   fail: 
-    en: Copy failed (ﾟ⊿�?)�?
-    zh-CN: 复制失败 (ﾟ⊿�?)�?
-    zh-TW: 複製失敗 (ﾟ⊿�?)�?
-    ja: コピー失�? (ﾟ⊿�?)�?
-    pt-BR: Falha ao copiar (ﾟ⊿�?)�?
+    en: Copy failed (ﾟ⊿ﾟ)ﾂ
+    zh-CN: 复制失败 (ﾟ⊿ﾟ)ﾂ
+    zh-TW: 複製失敗 (ﾟ⊿ﾟ)ﾂ
+    ja: コピー失敗 (ﾟ⊿ﾟ)ﾂ
+    pt-BR: Falha ao copiar (ﾟ⊿ﾟ)ﾂ
   copyright:
     enable: false
     count: 50 # The number of characters when the copyright is displayed
@@ -348,9 +348,9 @@ comment:
   # comment system title
   title:
     en: Leave a comment
-    zh-CN: 说些什么吧�?
-    zh-TW: 說些什麼吧�?
-    ja: コメントを残�?
+    zh-CN: 说些什么吧
+    zh-TW: 說些什麼吧
+    ja: コメントを残す
     pt-BR: Deixe um comentário
   default: waline # default comment system, when you enable multiple comment systems
 
@@ -473,10 +473,10 @@ algolia_search:
 preloader:
   enable: true
   text: 
-    zh-CN: 少女祈祷�?...
-    zh-TW: 少女祈禱�?...
+    zh-CN: 少女祈祷中...
+    zh-TW: 少女祈禱中...
     en: Loading...
-    ja: 少女祈祷�?...
+    ja: 少女祈祷中...
     pt-BR: Carregando...
   icon: # default use inline svg for fast speed, you can use a image url, like '/images/taichi.png'
   rotate: true # whether to rotate the icon
