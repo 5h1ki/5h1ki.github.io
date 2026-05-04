@@ -26,9 +26,9 @@ monthFormat: "2006-01"
 dateFormat: "2006-01-02"
 timeFormat: "2006-01-02 15:04:05"
 
-author: Shiki
+author: 5h1ki
 email: 361904398@qq.com
-description: "代码苦手，fgo资深萌新"
+description: "勇敢的人决不会失去勇气，健康的胃决不会失去胃口。"
 # subtitle: "少女祈祷�?..."
 subtitle:
   typing:
@@ -47,7 +47,7 @@ subtitle:
     showCursor: true            # 是否显示闪烁的字�?
     cursorChar: "|"             # 字符
     smartBackspace: false       # 智能退格，只删除不同的部分
-  text: "少女祈祷中..."        # �? typing.enable = false 时使�?
+  text: "在此记录通往根源的每一行字节"        # �? typing.enable = false 时使�?
 
 banner: "images/banner.webp"
 # You can also write it in the form of the following url

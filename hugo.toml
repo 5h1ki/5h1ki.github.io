@@ -1,6 +1,6 @@
 baseURL = 'https://5h1ki.github.io/'
 defaultContentLanguage = 'zh-CN'
-title = 'Shiki'
+title = 'SHIKI_Log'
 theme = "reimu"
 
 [markup.highlight]
