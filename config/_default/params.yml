@@ -170,7 +170,7 @@ show_update_time: false # If you want to show the update time, please set this t
 
 # Summary content
 summary:
-  enable: false
+  enable: true
   style: 'subtitle' # 'subtitle' or 'blockquote'
 
 # RSS output
