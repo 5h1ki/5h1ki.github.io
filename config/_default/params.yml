@@ -210,7 +210,7 @@ triangle_badge:
   icon: github # same as the icon in the social config
   link: https://github.com/D-Sketon/hugo-theme-reimu
 
-anchor_icon: # default use '#' icon, you can use a hexadecimal representation of fontawesome or icon_font, like 'f0c1', you can also use false to hide anchor icon
+anchor_icon: false # default use '#' icon, you can use a hexadecimal representation of fontawesome or icon_font, like 'f0c1', you can also use false to hide anchor icon
 
 reimu_cursor:
   enable: false
@@ -413,19 +413,19 @@ gitalk:
 
 # https://giscus.app/zh-CN
 giscus:
-  enable: false
-  repo:
-  repoId:
-  category:
-  categoryId:
-  mapping: mapping
+  enable: true
+  repo: 5h1ki/5h1ki.github.io
+  repoId: R_kgDOSSTbFg
+  category: Announcements
+  categoryId: DIC_kwDOSSTbFs4C8Tne
+  mapping: pathname
   strict: 0
   reactionsEnabled: 1
   emitMetadata: 0
-  inputPosition: bottom
+  inputPosition: top
   theme:
-    light:
-    dark:
+    light: light
+    dark: dark
 
 # https://disqus.com
 disqus:
