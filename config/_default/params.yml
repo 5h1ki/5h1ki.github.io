@@ -213,7 +213,7 @@ triangle_badge:
 anchor_icon: # default use '#' icon, you can use a hexadecimal representation of fontawesome or icon_font, like 'f0c1', you can also use false to hide anchor icon
 
 reimu_cursor:
-  enable: true
+  enable: false
   cursor:
     default: ../images/cursor/reimu-cursor-default.png  # this path is relative to the css/main.css, so it needs to go up one level to reach the images folder
     pointer: ../images/cursor/reimu-cursor-pointer.png
@@ -474,10 +474,10 @@ preloader:
   enable: true
   text: 
     zh-CN: Syncing to Root...
-    zh-TW: Syncing to Root...
-    en: Syncing to Root...
-    ja: Syncing to Root...
-    pt-BR: Syncing to Root...
+    zh-TW: 少女祈禱中...
+    en: Loading...
+    ja: 少女祈祷中...
+    pt-BR: Carregando...
   icon: # default use inline svg for fast speed, you can use a image url, like '/images/taichi.png'
   rotate: true # whether to rotate the icon
 
@@ -509,8 +509,8 @@ animation:
 
 # see https://github.com/D-Sketon/mouse-firework
 firework:
-  enable: true
-  disable_on_mobile: false
+  enable: false
+  disable_on_mobile: true
   options:
     excludeElements: ["a", "button"]
     particles:
