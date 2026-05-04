@@ -1,0 +1,19 @@
+/* 强制还原全局鼠标样式 */
+html, body, a, button, .btn, [class*="nav"], [class*="menu"], [class*="item"] {
+  cursor: default !important; /* 基础状态还原为标准箭头 */
+}
+
+/* 强制还原链接和可点击元素的指针样式 */
+a, button, .btn, label, select, summary, [role="button"], .tag-link, .article-tag-list-link {
+  cursor: pointer !important; /* 悬停时还原为标准的小手图标 */
+}
+
+/* 针对文本输入区域还原为 I 型光标 */
+input, textarea, [contenteditable="true"] {
+  cursor: text !important;
+}
+
+/* 彻底禁用主题可能存在的自定义图片光标 */
+* {
+  cursor: auto !important; /* 让浏览器根据元素类型自动决定样式 */
+}
