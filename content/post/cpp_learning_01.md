@@ -1,9 +1,9 @@
 ---
 title: C++ 学习笔记（一）
 date: 2026-05-06T12:06:32+08:00
-lastmod: 2026-05-06T16:05:05+08:00
+lastmod: 2026-05-06T16:09:30+08:00
 description: "cpp 的引用"
-subtitle: "cpp 的引用"
+summary: "cpp 的引用"
 tags: ["学习", "开发"]
 categories: ["学习笔记"]
 cover: images/smiling_coffee.webp
@@ -29,7 +29,7 @@ cover: images/smiling_coffee.webp
   ```cpp
   typedef int&  lref;
   typedef int&& rref;
-  int n;
+  int n;`
  
   lref&  r1 = n; // type of r1 is int&
   lref&& r2 = n; // type of r2 is int&
