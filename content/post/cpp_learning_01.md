@@ -1,10 +1,10 @@
 ---
 title: C++ 学习笔记（一）
 date: 2026-05-06T12:06:32+08:00
-lastmod:  2026-05-06T13:42:02+08:00
+lastmod: 2026-05-06T13:50:16+08:00
 description: cpp 的引用
-tags: 学习 开发
-categories: 学习笔记
+tags: ["学习", "开发"]
+categories: ["学习笔记"]
 cover: images/smiling_coffee.webp
 ---
 
