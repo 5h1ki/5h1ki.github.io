@@ -682,11 +682,11 @@ player:
       fixed: true
       autoplay:
       loop:
-      order:
+      order: random
       preload:
       volume:
       mutex:
-      listFolded:
+      listFolded: true
       lrcType:
   meting:
     # https://github.com/metowolf/MetingJS
@@ -694,7 +694,7 @@ player:
     enable: true
     meting_api: # custom api
     options:
-      id: 6639239774
+      id: 17955578540
       server: netease
       type: playlist
       auto:
